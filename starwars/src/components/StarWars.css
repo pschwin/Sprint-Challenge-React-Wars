@@ -1,0 +1,14 @@
+
+.character-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.one-character{
+    background-color: #863A1D;
+    color: white;
+    width: 33%;
+    margin: 20px;
+}
