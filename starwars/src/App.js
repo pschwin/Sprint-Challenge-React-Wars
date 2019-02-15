@@ -10,6 +10,8 @@ class App extends Component {
     };
   }
 
+  
+
   componentDidMount() {
     this.getCharacters('https://swapi.co/api/people');
   }
@@ -34,10 +36,16 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <CharacterList />
+        
+        <CharacterList starwarsChars = {this.state.starwarsChars}/>
+        
       </div>
     );
   }
+
+  
 }
 
 export default App;
+
+
