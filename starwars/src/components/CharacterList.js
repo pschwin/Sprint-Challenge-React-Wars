@@ -3,7 +3,7 @@ import React from 'react'
 
 const CharacterList = props =>{
     return(
-        <h1>hello</h1>
+        <h1>Test</h1>
     );
 }
 
